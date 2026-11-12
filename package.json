@@ -1,6 +1,6 @@
 {
   "name": "av-rust-desktop-app-builder",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Agent skills for building native Rust desktop apps with Tauri 2 and a React + TypeScript webview frontend: a layered Cargo workspace, a headless engine where every action is a command over immutable snapshots, a thin frontend that draws what the engine publishes, desktop + CLI + agent control channel from one core, and a single `cargo xtask ci` gate. Ships a buildable project template and setup scripts.",
   "keywords": [
     "agent-skill",
