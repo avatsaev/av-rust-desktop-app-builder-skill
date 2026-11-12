@@ -1,0 +1,4 @@
+# Source material the skills were derived from; never published.
+/av-rust-desktop-app-handoff/
+node_modules/
+*.tgz

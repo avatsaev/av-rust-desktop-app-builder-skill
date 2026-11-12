@@ -1,0 +1,17 @@
+[package]
+name = "myapp-cli"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "MyApp without a window: every engine command, scriptable"
+
+[lints]
+workspace = true
+
+[dependencies]
+myapp-engine = { workspace = true }
+clap = { workspace = true }
+serde_json = { workspace = true }
+
+[dev-dependencies]
+tempfile = "3"
